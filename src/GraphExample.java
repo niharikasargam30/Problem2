@@ -55,7 +55,7 @@ public class GraphExample {
             }
         }
         double averageDistance = (double)distance /pathCount;
-        System.out.println(averageDistance);
+        System.out.println("Average = " + averageDistance);
     }
     private static void dfs(createGraph givenGraph, ArrayList<ArrayList<pair>> totalPath, ArrayList<pair> path, Integer source, Integer destination, Integer weight) {
         path.add(new pair(source, weight));
